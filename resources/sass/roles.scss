@@ -1,0 +1,107 @@
+/*!
+ * Copyright (c) 2021. All rights reserved.
+ */
+.no-padding {
+    padding: 0;
+}
+.pointer {
+    cursor: pointer;
+}
+.card {
+    width: 100%;
+}
+.modal .modal-header {
+    -webkit-border-top-left-radius: .2rem;
+    -webkit-border-top-right-radius: .2rem;
+    -moz-border-radius-topleft: .2rem;
+    -moz-border-radius-topright: .2rem;
+    border-top-left-radius: .2rem;
+    border-top-right-radius: .2rem;
+}
+.modal-success .modal-header {
+    color: #ffffff;
+    background-color: #5cb85c;
+}
+.modal-warning .modal-header {
+    color:#fff;
+    background-color: #f0ad4e;
+}
+.modal-danger .modal-header {
+    color:#fff;
+    background-color: #d9534f;
+}
+.modal-info .modal-header {
+    color:#fff;
+    background-color: #5bc0de;
+}
+.modal-primary .modal-header {
+    color:#fff;
+    background-color: #428bca;
+}
+.clickable-row:hover {
+    cursor: pointer;
+}
+.btn-save,
+.pw-change-container {
+    display: none;
+}
+.has-error,
+.has-error input,
+.has-error select,
+.has-error textarea {
+    border-color: #d9534f;
+}
+.clear-search {
+    display: none;
+}
+div.dataTables_wrapper div.dataTables_length label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right:20px;
+    select {
+        margin-left: 5px;
+        margin-right: 5px
+    }
+}
+#search_blocked_form {
+    display: none;
+}
+.disabled {
+    color: #dcdbdb;
+    pointer-events: none;
+    cursor: not-allowed;
+    .switch span.active {
+        color: #dcdbdb;
+        pointer-events: none;
+        cursor: not-allowed;
+    }
+}
+.permissions-table,
+.roles-table {
+    font-size: 0.95em;
+    .badge {
+        font-weight: normal;
+        font-size: 85%
+    }
+    thead th, td {
+        border: none;
+        vertical-align: middle !important;
+    }
+    form {
+        margin: 0;
+    }
+    tr td:first-child,
+    tr th:first-child {
+        padding-left: 15px;
+    }
+    tr td:last-child,
+    tr th:last-child {
+        padding-right: 15px;
+    }
+}
+
+@media(min-width: 576px) {
+    .edit-form-delete {
+        margin-top: -2.85em;
+    }
+}
